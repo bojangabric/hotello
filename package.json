@@ -9,11 +9,14 @@
     "start": "next start"
   },
   "dependencies": {
-    "autoprefixer": "^9.8.6",
-    "next": "9.3.5",
-    "postcss-import": "^12.0.1",
-    "react": "16.13.1",
-    "react-dom": "16.13.1",
-    "tailwindcss": "^1.6.2"
+    "@tailwindcss/forms": "^0.2.1",
+    "autoprefixer": "^10.0.4",
+    "next": "10.0.3",
+    "next-seo": "^4.17.0",
+    "postcss-import": "^13.0.0",
+    "rc-slider": "^9.6.4",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "tailwindcss": "^2.0.1"
   }
 }
