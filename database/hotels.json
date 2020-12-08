@@ -1,0 +1,68 @@
+[
+  {
+    "name": "Mombasa",
+    "city": "Mombasa",
+    "country": "Kenya",
+    "image": "/images/mombasa.jpg",
+    "price": 250,
+    "reviews": 67,
+    "review_grade": 4.8,
+    "stars": 5,
+    "facilities": ["coffee", "tv", "wifi", "kitchen"]
+  },
+  {
+    "name": "Mombasa",
+    "city": "Coolum Beach",
+    "country": "Australia",
+    "image": "/images/coolum-beach.jpg",
+    "price": 150,
+    "reviews": 49,
+    "review_grade": 3.9,
+    "stars": 4,
+    "facilities": ["coffee", "kitchen", "creditcard"]
+  },
+  {
+    "name": "Mombasa",
+    "city": "Punta Cana",
+    "country": "Dominican Republic",
+    "image": "/images/punta-cana.jpg",
+    "price": 180,
+    "reviews": 4,
+    "review_grade": 3.3,
+    "stars": 3,
+    "facilities": ["tv", "phone", "wifi"]
+  },
+  {
+    "name": "Mombasa",
+    "city": "Bandung",
+    "country": "Indonesia",
+    "image": "/images/bubu-jungle.jpg",
+    "price": 235,
+    "reviews": 15,
+    "review_grade": 4.2,
+    "stars": 4,
+    "facilities": ["coffee", "kitchen", "phone", "pool"]
+  },
+  {
+    "name": "Mombasa",
+    "city": "Coolum Beach",
+    "country": "Australia",
+    "image": "/images/coolum-beach.jpg",
+    "price": 150,
+    "reviews": 49,
+    "review_grade": 1.2,
+    "stars": 1,
+    "facilities": ["coffee", "kitchen", "creditcard"]
+  },
+  {
+    "name": "Mombasa",
+    "city": "Punta Cana",
+    "country": "Dominican Republic",
+    "image": "/images/punta-cana.jpg",
+    "price": 180,
+    "reviews": 4,
+    "review_grade": 2.3,
+    "stars": 2,
+    "facilities": ["tv", "phone", "wifi"]
+  }
+]
