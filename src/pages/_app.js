@@ -1,8 +1,8 @@
 import Navbar from '../components/navbar';
 import Footer from '../components/footer';
 import { DefaultSeo } from 'next-seo';
-import SEO from '../next-seo.config';
-import '../css/tailwind.css';
+import SEO from '/next-seo.config';
+import '@/css/tailwind.css';
 
 const App = ({ Component, pageProps }) => (
   <div className="font-sans text-gray-800" style={{ backgroundColor: '#F7FCFF' }}>
