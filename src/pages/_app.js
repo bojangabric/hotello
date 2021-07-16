@@ -5,7 +5,7 @@ import SEO from '/next-seo.config';
 import '@/css/tailwind.css';
 
 const App = ({ Component, pageProps }) => (
-  <div className="font-sans text-gray-800" style={{ backgroundColor: '#F7FCFF' }}>
+  <div className="text-gray-800" style={{ backgroundColor: '#F7FCFF' }}>
     <DefaultSeo {...SEO} />
     <Navbar />
     <Component {...pageProps} />
