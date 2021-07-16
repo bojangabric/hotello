@@ -29,7 +29,7 @@ const TrendingDestinations = () => (
     </div>
     <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-12 pt-24 mx-auto w-4/5 lg:w-9/12">
       {destinations.map(destination => (
-        <Destination {...destination} />
+        <Destination key={destination.id} {...destination} />
       ))}
     </div>
   </div>

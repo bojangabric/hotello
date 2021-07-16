@@ -32,7 +32,7 @@ const Hotels = () => (
 
       <div>
         {hotels.map(hotel => (
-          <Hotel {...hotel} />
+          <Hotel key={hotel.name} {...hotel} />
         ))}
       </div>
 

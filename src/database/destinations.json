@@ -1,20 +1,24 @@
 [
   {
+    "id": 1,
     "location": "Greece",
     "image": "/images/greece.jpg",
     "number_of_hotels": 23
   },
   {
+    "id": 2,
     "location": "Rome",
     "image": "/images/rome.jpg",
     "number_of_hotels": 41
   },
   {
+    "id": 3,
     "location": "Thailand",
     "image": "/images/thailand.jpg",
     "number_of_hotels": 15
   },
   {
+    "id": 4,
     "location": "Fiji",
     "image": "/images/fiji.jpg",
     "number_of_hotels": 38

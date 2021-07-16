@@ -10,7 +10,7 @@ const TrendingHotels = () => (
     </div>
     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-16 sm:gap-8 w-4/5 pt-24 mx-auto lg:w-9/12">
       {hotels.slice(0, 4).map(hotel => (
-        <Hotel {...hotel} />
+        <Hotel key={hotel.name} {...hotel} />
       ))}
     </div>
     <div className="mt-16 text-center">

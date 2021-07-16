@@ -36,7 +36,7 @@ const Hotel = ({ name, city, country, image, price, reviews, review_grade, stars
 
               <div className="flex items-center pt-2 space-x-2">
                 {facilities.map(facility => (
-                  <img className="w-6" src={`/images/hotel-icons/${facility}.svg`} />
+                  <img className="w-6" src={`/images/hotel-icons/${facility}.svg`} key={facility} />
                 ))}
               </div>
             </div>
@@ -54,8 +54,9 @@ const Hotel = ({ name, city, country, image, price, reviews, review_grade, stars
                     <div className="text-sm text-gray-700 tracking-wide">({reviews} reviews)</div>
                   </div>
                   <div className="flex space-x-1">
-                    {[...Array(stars)].map(() => (
+                    {[...Array(stars)].map(i => (
                       <svg
+                        key={i}
                         className="h-5 w-5 text-yellow-300 fill-current"
                         xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 20 20"
@@ -63,8 +64,9 @@ const Hotel = ({ name, city, country, image, price, reviews, review_grade, stars
                         <path d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z" />
                       </svg>
                     ))}
-                    {[...Array(5 - stars)].map(() => (
+                    {[...Array(5 - stars)].map(i => (
                       <svg
+                        key={i}
                         className="h-5 w-5 text-gray-200 fill-current"
                         xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 20 20"
