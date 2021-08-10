@@ -39,8 +39,8 @@ const LoginModal = () => {
               leaveFrom="opacity-100 scale-100"
               leaveTo="opacity-0 scale-95"
             >
-              <div className="inline-block w-full max-w-md px-8 py-6 overflow-hidden text-left align-middle transition-all transform bg-white shadow-xl rounded-xl">
-                <button onClick={closeModal} className="absolute top-0 right-0 mr-10 mt-4">
+              <div className="inline-block w-full max-w-sm p-6 overflow-hidden text-left align-middle transition-all transform bg-white shadow-xl rounded">
+                <button onClick={closeModal} className="absolute top-0 right-0 mr-6 mt-4">
                   <XIcon className="h-5 w-5 text-gray-500 hover:text-gray-800 transition" />
                 </button>
                 <form className="" method="POST">
