@@ -2,7 +2,7 @@ import CheckBox from './checkbox';
 import { FilterContainer } from './container';
 
 const Filter = () => (
-  <div className="top-0 fixed inset-y-0 left-0 z-30 self-start w-64 p-3 mr-4 overflow-y-auto bg-white shadow-sm border-opacity-70 border-r lg:border border-gray-200 whitespace-nowrap lg:rounded lg:translate-x-0 lg:w-auto lg:overflow-visible lg:static lg:block">
+  <div className="top-0 fixed inset-y-0 left-0 z-30 self-start w-64 px-4 mr-4 overflow-y-auto bg-white shadow-sm border-opacity-70 border-r lg:border border-gray-200 whitespace-nowrap lg:rounded lg:translate-x-0 lg:w-auto lg:overflow-visible lg:static lg:block">
     <div className="absolute top-0 left-0 pt-3 pl-2 lg:hidden">
       <button className="block text-gray-600 hover:text-gray-800">
         <svg className="w-6 h-6" viewBox="0 0 24 24" fill="currentColor">
@@ -10,8 +10,8 @@ const Filter = () => (
         </svg>
       </button>
     </div>
-    <div className="mt-8 lg:mt-0">
-      <div className="text-xl font-medium text-gray-800">Filter</div>
+    <div className="text-xl font-medium text-gray-800 mt-3">Filter</div>
+    <div className="mt-8 lg:mt-0 divide-y">
       <FilterContainer name={'Hotel name'}>
         <input
           className="text-gray-600 mt-1 block w-full rounded border-gray-200 shadow-sm focus:border-blue-300 focus:ring focus:ring-blue-200 focus:ring-opacity-50 py-1"
