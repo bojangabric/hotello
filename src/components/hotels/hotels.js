@@ -1,4 +1,4 @@
-import Filter from './filter';
+import { Filter } from './filter';
 import Hotel from './hotel';
 import hotels from '../../database/hotels.json';
 
