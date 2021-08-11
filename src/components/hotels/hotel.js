@@ -7,16 +7,16 @@ const Hotel = ({ name, city, country, image, price, reviews, review_grade, stars
   useEffect(() => {
     if (review_grade > 4) {
       setReview('Excellent');
-      setColor('green');
+      setColor('bg-green-100 text-green-700');
     } else if (review_grade > 3) {
       setReview('Good');
-      setColor('green');
+      setColor('bg-green-100 text-green-700');
     } else if (review_grade > 2) {
       setReview('Poor');
-      setColor('yellow');
+      setColor('bg-yellow-100 text-yellow-700');
     } else {
       setReview('Bad');
-      setColor('red');
+      setColor('bg-red-100 text-red-700');
     }
   });
 
@@ -44,7 +44,7 @@ const Hotel = ({ name, city, country, image, price, reviews, review_grade, stars
             <div>
               <div className="flex items-center space-x-2">
                 <div
-                  className={`rounded bg-${color}-100 bg-opacity-60 text-${color}-700 w-12 h-10 flex items-center justify-center font-medium`}
+                  className={`${color} rounded bg-opacity-60 w-12 h-10 flex items-center justify-center font-medium`}
                 >
                   {review_grade}
                 </div>
